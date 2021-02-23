@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans',sans-serif;
+}
+
+body {
+  background-color: #19a2ae;
+  background-size: 600px;
+  z-index: -1;
+}
+
+main {
+  width: auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: 600px;
+  z-index: -1;
+}
+
+main .image-top {
+  position: fixed;
+  top: -50%;
+  left: -10%;
+  width: 50%;
+}
+
+main .image-bottom {
+  position: fixed;
+  bottom: -50%;
+  right: -10%;
+  width: 50%;
+}
+
+.card {
+  height: 400px;
+  background: white;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+.card-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 326px;
+}
+
+.bg-pattern-bottom {
+  z-index: 1;
+}
+
+.profile-img {
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 114px;
+}
+
+.lower-section h2 {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.lower-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.bottom-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  margin-top: 65px;
+  margin-left: 78px;
+}
+
+.text1 {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 1px solid #cecaca;
+}
+
+.name1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.london1 {
+  margin-left: 120px;
+  margin-top: 5px;
+}
+
+.name-city {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */

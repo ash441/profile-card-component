@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',sans-serif;
+
+}
+body{
+
+    background-color: hsl(185, 75%, 39%);
+    
+    // background-image: url(/images/bg-pattern-top.svg);
+    // background-position: left top;
+    // background-repeat: no-repeat;
+    background-size: 600px;
+    z-index: -1;
+    
+    
+}
+
+
+main {
+    width: auto;
+    height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    // background-image: url(/images/bg-pattern-bottom.svg);
+    // background-position: bottom right;
+    // background-repeat: no-repeat;
+    background-size: 600px;
+    z-index: -1;
+
+    
+    .image-top {
+     position:fixed;
+     top: -50%;
+     left: -10%;
+     width: 50%;
+      
+    }
+    .image-bottom{
+     position:fixed;
+     bottom: -50%;
+    right: -10%;
+    width: 50%;
+      
+    }
+    
+
+
+ 
+    
+}
+
+.card {
+   
+  
+    height: 400px;
+    background: white;
+    
+    border-radius: 20px;
+    z-index: 999;
+
+
+    
+}
+
+.card-top {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 326px;
+    
+}
+
+.bg-pattern-bottom {
+    z-index: 1;
+}
+
+.profile-img  {
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 114px;
+}
+
+.lower-section {
+    h2{
+        margin-top: 60px;
+        margin-left: 80px;
+
+    }
+}
+
+.lower-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2 {
+    margin-top: 65px;
+margin-left: 78px;
+}
+
+.text1 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(206, 202, 202);
+    
+
+}
+
+.name1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.london1  {
+    margin-left: 120px;
+    margin-top: 5px;
+}
+.name-city {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:375px) {
+    .card {
+        // width: 300px;
+    }
+
+    
+
+}
